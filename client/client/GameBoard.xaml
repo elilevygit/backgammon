@@ -1,0 +1,215 @@
+﻿<Window x:Class="client.GameBoard" Closing="App_Exit"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="GameBoard" Height="700" Width="700" MaxHeight="700" MaxWidth="700" MinHeight="700" MinWidth="700">
+    <Grid Name="maingrid" Background="AliceBlue" Margin="0,0,0,-6">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="5*" />
+            <RowDefinition Height="5*" />
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+
+
+
+        <Button Name="move" IsEnabled="False" Grid.ColumnSpan="2" Content="העבר אבן" Grid.Column="1" Grid.Row="1" Click="move_Click"></Button>
+        <TextBlock Grid.Column="3" Grid.Row="0" Text="ממספר" ></TextBlock>
+        <TextBlock Grid.Column="4" Grid.Row="0" Text="למספר"></TextBlock>
+        <TextBox Name="from_x" Grid.Column="3" Grid.Row="1" ></TextBox>
+       
+        <TextBox Name="to_y" Grid.Column="4" Grid.Row="1" ></TextBox>
+
+        <Button Name="start" Content="התחל משחק" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" Click="Button_Click"></Button>
+        <Button Grid.Column="7" IsEnabled="False" Content="סיים תור" Name="finish" Grid.Row="1" Click="finish_Click" Height="57" VerticalAlignment="Top"/>
+        <Button Grid.Column="8" Grid.ColumnSpan="2" IsEnabled="False" Content="זרוק קוביות" Name="roll_dice" Grid.Row="1" Click="roll_dice_Click"></Button>
+
+        <TextBlock Name="rolld1" Grid.Column="8" Grid.Row="0" Text="rolld1" ></TextBlock>
+        <TextBlock Name="rolld2" Grid.Column="9" Grid.Row="0" Text="rolld2" ></TextBlock>
+        
+       
+        
+        <Grid  Grid.Column="0" Grid.Row="2">
+            <Polygon  ></Polygon>
+            <StackPanel  Name="p0" />
+            <TextBlock Text="0" FontSize="30" TextAlignment="Center" />
+        </Grid>
+        <Grid  Grid.Column="1" Grid.Row="2">
+            <Polygon   Points="0, 0 0, 0 25, 325 50, 0" Fill="Brown"></Polygon>
+            <StackPanel  Name="p1" />
+            <TextBlock Text="1" FontSize="30" TextAlignment="Center" />
+        </Grid>
+        <Grid  Grid.Column="2" Grid.Row="2">
+            <Polygon  Points="0, 0 0, 0 25, 325 50, 0" Fill="Wheat"></Polygon>
+            <StackPanel  Name="p2" />
+            <TextBlock Text="2" FontSize="30" TextAlignment="Center" />
+
+        </Grid>
+        <Grid  Grid.Column="3" Grid.Row="2">
+            <Polygon  Points="0, 0 0, 0 25, 325 50, 0" Fill="Brown"></Polygon>
+            <StackPanel  Name="p3" />
+            <TextBlock Text="3" FontSize="30" TextAlignment="Center" />
+
+        </Grid>
+        <Grid  Grid.Column="4" Grid.Row="2">
+            <Polygon  Points="0, 0 0, 0 25, 325 50, 0" Fill="Wheat"></Polygon>
+            <StackPanel  Name="p4" />
+            <TextBlock Text="4" FontSize="30" TextAlignment="Center" />
+
+        </Grid>
+        <Grid  Grid.Column="5" Grid.Row="2">
+            <Polygon  Points="0, 0 0, 0 25, 325 50, 0" Fill="Brown"></Polygon>
+            <StackPanel  Name="p5" />
+            <TextBlock Text="5" FontSize="30" TextAlignment="Center" />
+
+        </Grid>
+        <Grid  Grid.Column="6" Grid.Row="2">
+            <Polygon  Points="0, 0 0, 0 25, 325 50, 0" Fill="Wheat"></Polygon>
+            <StackPanel  Name="p6" />
+            <TextBlock Text="6" FontSize="30" TextAlignment="Center" />
+
+        </Grid>
+
+        <Grid  Grid.Column="7" Grid.Row="2" Background="Brown" >
+           
+
+        </Grid>
+        <Grid  Grid.Column="7" Grid.Row="3" Background="Brown" >
+
+
+        </Grid>
+        <Grid  Grid.Column="8" Grid.Row="2">
+            <Polygon  Points="0, 0 0, 0 25, 325 50, 0" Fill="Brown"></Polygon>
+            <StackPanel  Name="p7" />
+            <TextBlock Text="7" FontSize="30" TextAlignment="Center" />
+
+        </Grid>
+        <Grid  Grid.Column="9" Grid.Row="2">
+            <Polygon  Points="0, 0 0, 0 25, 325 50, 0" Fill="Wheat"></Polygon>
+            <StackPanel  Name="p8" />
+            <TextBlock Text="8" FontSize="30" TextAlignment="Center" />
+
+        </Grid>
+        <Grid  Grid.Column="10" Grid.Row="2">
+            <Polygon  Points="0, 0 0, 0 25, 325 50, 0" Fill="Brown"></Polygon>
+            <StackPanel  Name="p9" />
+            <TextBlock Text="9" FontSize="30" TextAlignment="Center" />
+
+        </Grid>
+        <Grid  Grid.Column="11" Grid.Row="2">
+            <Polygon  Points="0, 0 0, 0 25, 325 50, 0" Fill="Wheat"></Polygon>
+            <StackPanel  Name="p10" />
+            <TextBlock Text="10" FontSize="30" TextAlignment="Center" />
+
+        </Grid>
+        <Grid  Grid.Column="12" Grid.Row="2">
+            <Polygon  Points="0, 0 0, 0 25, 325 50, 0" Fill="Brown"></Polygon>
+            <StackPanel  Name="p11" />
+            <TextBlock Text="11" FontSize="30" TextAlignment="Center" />
+
+        </Grid>
+        <Grid  Grid.Column="13" Grid.Row="2">
+            <Polygon  Points="0, 0 0, 0 25, 325 50, 0" Fill="Wheat"></Polygon>
+            <StackPanel  Name="p12" />
+            <TextBlock Text="12" FontSize="30" TextAlignment="Center" />
+
+        </Grid>
+        <Grid  Grid.Column="0" Grid.Row="3">
+            <Polygon  ></Polygon>
+            <StackPanel  Name="p25" VerticalAlignment="Bottom"/>
+            <TextBlock Text="25" FontSize="30" TextAlignment="Center" VerticalAlignment="Bottom" />
+
+        </Grid>
+        <Grid  Grid.Column="1" Grid.Row="3">
+            <Polygon  Points="25, 0 0, 335 50, 335 25, 0" Fill="Wheat"></Polygon>
+            <StackPanel  Name="p13" VerticalAlignment="Bottom"/>
+            <TextBlock Text="13" FontSize="30" TextAlignment="Center" VerticalAlignment="Bottom" />
+
+        </Grid>
+        <Grid  Grid.Column="2" Grid.Row="3">
+            <Polygon  Points="25, 0 0, 335 50, 335 25, 0" Fill="Brown"></Polygon>
+            <StackPanel  Name="p14" VerticalAlignment="Bottom"/>
+            <TextBlock Text="14" FontSize="30" TextAlignment="Center" VerticalAlignment="Bottom" />
+
+        </Grid>
+        <Grid  Grid.Column="3" Grid.Row="3">
+            <Polygon  Points="25, 0 0, 335 50, 335 25, 0" Fill="Wheat"></Polygon>
+            <StackPanel  Name="p15" VerticalAlignment="Bottom" />
+            <TextBlock Text="15" FontSize="30" TextAlignment="Center" VerticalAlignment="Bottom" />
+
+        </Grid>
+        <Grid  Grid.Column="4" Grid.Row="3">
+            <Polygon  Points="25, 0 0, 335 50, 335 25, 0" Fill="Brown"></Polygon>
+            <StackPanel  Name="p16" VerticalAlignment="Bottom"/>
+            <TextBlock Text="16" FontSize="30" TextAlignment="Center" VerticalAlignment="Bottom" />
+
+        </Grid>
+        <Grid  Grid.Column="5" Grid.Row="3">
+            <Polygon  Points="25, 0 0, 335 50, 335 25, 0" Fill="Wheat"></Polygon>
+            <StackPanel  Name="p17" VerticalAlignment="Bottom"/>
+            <TextBlock Text="17" FontSize="30" TextAlignment="Center" VerticalAlignment="Bottom" />
+
+        </Grid>
+        <Grid  Grid.Column="6" Grid.Row="3">
+            <Polygon  Points="25, 0 0, 335 50, 335 25, 0" Fill="Brown"></Polygon>
+            <StackPanel  Name="p18" VerticalAlignment="Bottom"/>
+            <TextBlock Text="18" FontSize="30" TextAlignment="Center" VerticalAlignment="Bottom" />
+
+        </Grid>
+        <Grid  Grid.Column="8" Grid.Row="3">
+            <Polygon  Points="25, 0 0, 335 50, 335 25, 0" Fill="Wheat"></Polygon>
+            <StackPanel  Name="p19" VerticalAlignment="Bottom"/>
+            <TextBlock Text="19" FontSize="30" TextAlignment="Center" VerticalAlignment="Bottom" />
+
+        </Grid>
+        <Grid  Grid.Column="9" Grid.Row="3">
+            <Polygon Points="25, 0 0, 335 50, 335 25, 0" Fill="Brown"></Polygon>
+            <StackPanel  Name="p20" VerticalAlignment="Bottom"/>
+            <TextBlock Text="20" FontSize="30" TextAlignment="Center" VerticalAlignment="Bottom" />
+
+        </Grid>
+        <Grid  Grid.Column="10" Grid.Row="3">
+            <Polygon  Points="25, 0 0, 335 50, 335 25, 0" Fill="Wheat"></Polygon>
+            <StackPanel  Name="p21" VerticalAlignment="Bottom"/>
+            <TextBlock Text="21" FontSize="30" TextAlignment="Center" VerticalAlignment="Bottom" />
+
+        </Grid>
+        <Grid  Grid.Column="11" Grid.Row="3">
+            <Polygon  Points="25, 0 0, 335 50, 335 25, 0" Fill="Brown"></Polygon>
+            <StackPanel  Name="p22" VerticalAlignment="Bottom"/>
+            <TextBlock Text="22" FontSize="30" TextAlignment="Center" VerticalAlignment="Bottom" />
+
+        </Grid>
+        <Grid  Grid.Column="12" Grid.Row="3">
+            <Polygon  Points="25, 0 0, 335 50, 335 25, 0" Fill="Wheat"></Polygon>
+            <StackPanel  Name="p23" VerticalAlignment="Bottom"/>
+            <TextBlock Text="23" FontSize="30" TextAlignment="Center" VerticalAlignment="Bottom" />
+
+        </Grid>
+        <Grid  Grid.Column="13" Grid.Row="3">
+            <Polygon  Points="25, 0 0, 335 50, 335 25, 0" Fill="Brown"></Polygon>
+            <StackPanel  Name="p24" VerticalAlignment="Bottom"/>
+            <TextBlock Text="24" FontSize="30" TextAlignment="Center" VerticalAlignment="Bottom" />
+
+        </Grid>
+       
+     
+    </Grid>
+</Window>

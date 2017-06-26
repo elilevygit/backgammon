@@ -1,0 +1,19 @@
+F:\New folder\client\Contracts\bin\Debug\Contracts.dll
+F:\New folder\client\Contracts\bin\Debug\Contracts.pdb
+F:\New folder\client\Contracts\obj\Debug\Contracts.csprojResolveAssemblyReference.cache
+F:\New folder\client\Contracts\obj\Debug\Contracts.dll
+F:\New folder\client\Contracts\obj\Debug\Contracts.pdb
+E:\New folder\client\Contracts\bin\Debug\Contracts.dll
+E:\New folder\client\Contracts\bin\Debug\Contracts.pdb
+E:\New folder\client\Contracts\obj\Debug\Contracts.csprojResolveAssemblyReference.cache
+E:\New folder\client\Contracts\obj\Debug\Contracts.dll
+E:\New folder\client\Contracts\obj\Debug\Contracts.pdb
+G:\New folder\client\Contracts\bin\Debug\Contracts.dll
+G:\New folder\client\Contracts\bin\Debug\Contracts.pdb
+G:\New folder\client\Contracts\obj\Debug\Contracts.dll
+G:\New folder\client\Contracts\obj\Debug\Contracts.pdb
+C:\Users\eli\Desktop\New folder (4)\client\Contracts\bin\Debug\Contracts.dll
+C:\Users\eli\Desktop\New folder (4)\client\Contracts\bin\Debug\Contracts.pdb
+C:\Users\eli\Desktop\New folder (4)\client\Contracts\obj\Debug\Contracts.csprojResolveAssemblyReference.cache
+C:\Users\eli\Desktop\New folder (4)\client\Contracts\obj\Debug\Contracts.dll
+C:\Users\eli\Desktop\New folder (4)\client\Contracts\obj\Debug\Contracts.pdb

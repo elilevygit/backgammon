@@ -1,0 +1,23 @@
+C:\Users\אליהו\documents\visual studio 2013\Projects\backgammon3\Contracts\bin\Debug\Contracts.dll
+C:\Users\אליהו\documents\visual studio 2013\Projects\backgammon3\Contracts\bin\Debug\Contracts.pdb
+C:\Users\אליהו\documents\visual studio 2013\Projects\backgammon3\Contracts\obj\Debug\Contracts.dll
+C:\Users\אליהו\documents\visual studio 2013\Projects\backgammon3\Contracts\obj\Debug\Contracts.pdb
+E:\backgammon3\Contracts\bin\Debug\Contracts.dll
+E:\backgammon3\Contracts\bin\Debug\Contracts.pdb
+E:\backgammon3\Contracts\obj\Debug\Contracts.dll
+E:\backgammon3\Contracts\obj\Debug\Contracts.pdb
+E:\backgammon3\Contracts\obj\Debug\Contracts.csprojResolveAssemblyReference.cache
+G:\backgammon3\Contracts\bin\Debug\Contracts.dll
+G:\backgammon3\Contracts\bin\Debug\Contracts.pdb
+G:\backgammon3\Contracts\obj\Debug\Contracts.dll
+G:\backgammon3\Contracts\obj\Debug\Contracts.pdb
+F:\backgammon3\Contracts\bin\Debug\Contracts.dll
+F:\backgammon3\Contracts\bin\Debug\Contracts.pdb
+F:\backgammon3\Contracts\obj\Debug\Contracts.dll
+F:\backgammon3\Contracts\obj\Debug\Contracts.pdb
+G:\backgammon3\Contracts\obj\Debug\Contracts.csprojResolveAssemblyReference.cache
+C:\Users\eli\Desktop\New folder (4)\backgammon3\Contracts\bin\Debug\Contracts.dll
+C:\Users\eli\Desktop\New folder (4)\backgammon3\Contracts\bin\Debug\Contracts.pdb
+C:\Users\eli\Desktop\New folder (4)\backgammon3\Contracts\obj\Debug\Contracts.csprojResolveAssemblyReference.cache
+C:\Users\eli\Desktop\New folder (4)\backgammon3\Contracts\obj\Debug\Contracts.dll
+C:\Users\eli\Desktop\New folder (4)\backgammon3\Contracts\obj\Debug\Contracts.pdb

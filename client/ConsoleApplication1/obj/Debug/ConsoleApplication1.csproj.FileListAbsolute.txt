@@ -1,0 +1,5 @@
+E:\New folder\client\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+E:\New folder\client\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+E:\New folder\client\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+E:\New folder\client\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+E:\New folder\client\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
